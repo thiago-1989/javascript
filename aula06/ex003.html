@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa em JS</title>
+    <style>
+        body { 
+            background-color: rgb(125, 125, 247);
+            color: white;
+            font: Normal 20pt Arial;
+        }
+        h1 {
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Estou apendendo JaavaScript</p>
+    <script>
+        var n1 = window.prompt("Digite um número: ") //prompt funciona como input no python, sempre retorna stryng
+        var n2 = Number.parseInt(window.prompt("Digite outro número: ")) // usando parseInt com ou sem o Number antes, convertemos de string para inteiro
+        var soma = Number(n1) + n2 // Também podemos converter a variável definindo o tipo e colocando a variável como parâmetro
+        alert("A soma é " + soma)
+    </script>
+</body>
+</html>
