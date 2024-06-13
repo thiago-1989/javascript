@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu primeiro programa em JS</title>
+    <title>My 1st program JS</title>
     <style>
         body { 
             background-color: rgb(125, 125, 247);
@@ -17,12 +17,15 @@
 </head>
 <body>
     <h1>Olá, mundo!</h1>
-    <p>Estou apendendo JaavaScript</p>
+    <p>Estou apendendo JavaScript</p>
     <script>
         var n1 = window.prompt("Digite um número: ") //prompt funciona como input no python, sempre retorna stryng
-        var n2 = Number.parseInt(window.prompt("Digite outro número: ")) // usando parseInt com ou sem o Number antes, convertemos de string para inteiro
+        var n2 = Number(window.prompt("Digite outro número: ")) // usando parseInt com ou sem o Number antes, convertemos de string para inteiro
         var soma = Number(n1) + n2 // Também podemos converter a variável definindo o tipo e colocando a variável como parâmetro
-        alert(`A soma entre ${n1} e ${n2} é ${soma}`)
+        alert(`A soma entre ${n1} e ${n2} é ${soma}`) //usamos "template script" em vez de concatenações
+        var nome = String(window.prompt("Digite seu nome: "))
+        var idade = parseInt(window.prompt("Digite sua idade: "))
+        alert(`Seu nome é ${nome} e você tem ${idade} anos.`) //usamos "template script" em vez de concatenações
     </script>
 </body>
 </html>
