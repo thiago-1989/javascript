@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Nacionalidade</h1>
+    País de nascimento: <input type="text" name="txtnac" id="txtnac">
+    <input type="button" value="Submit" onclick="nacionalidade()">
+    <div id="res">Nacionalidade</div>
+    <script>
+        function nacionalidade() {
+            var pais = document.getElementById("txtnac").value
+            var res = document.querySelector("div#res")
+            if (pais != "Brasil") {
+                res.innerHTML = "Você é estrangeiro"
+            }else {
+                res.innerHTML = "Você é brasileiro"
+            }
+        }
+
+    </script>
+</body>
+</html>
