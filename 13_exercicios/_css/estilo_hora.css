@@ -1,0 +1,41 @@
+body {
+    background-color: royalblue;
+}
+
+header {
+    color: white;
+    padding: 10pt;
+    text-align: center;
+}
+
+section {
+    border-radius: 10px;
+    resize: block;
+    background-color: khaki;
+    padding: 10pt;
+    box-sizing: content-box;
+    margin-left: 30%;
+    margin-right: 30%;
+    align-content: center;
+}
+
+footer {
+    align-content: center;
+    text-align: center;
+
+    margin-top: 100px;
+}
+
+p#hora {
+    text-align: center;
+}
+
+img {
+    resize: inline;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 200px;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
