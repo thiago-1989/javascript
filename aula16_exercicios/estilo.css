@@ -1,0 +1,24 @@
+body {
+    font: normal 15pt Arial;
+    background-color: cornflowerblue;
+}
+
+header {
+    color: white;
+    padding: 10pt;
+    text-align: center;
+}
+
+section {
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 15px;
+    width: 700px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.60);
+}
+
+footer#rodape {
+    font: italic bold 15pt Arial;
+    text-align: center;
+}
